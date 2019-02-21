@@ -32,15 +32,15 @@ class Pokedex extends Component {
     });
   };
 
-  PokeDisplayRender = () => {
-    this.state.PokeDisplay.map(pokemon => (
-      <PokeDisplay
-        key={pokemon.id}
-        pokemon={pokemon}
-        handleClick={this.handleClick}
-      />
-    ));
-  };
+  // PokeDisplayRender = () => {
+  //   this.state.PokeDisplay.map(pokemon => (
+  //     <PokeDisplay
+  //       key={pokemon.id}
+  //       pokemon={pokemon}
+  //       handleClick={this.handleClick}
+  //     />
+  //   ));
+  // };
 
   filterByInput = () => {
     return this.state.pokemon
@@ -62,6 +62,8 @@ class Pokedex extends Component {
   };
   
   editedPokemon = (pokeObj) => {
+  	// let pokeArr = [pokeObj, ...this.state.pokemon.filter(p => p.id !== pokeObj.id)];
+  	
   	let pokeArr = this.state.pokemon.map(pok => pok.id === pokeObj.id ? pokeObj : pok)
 	this.setState({pokemon: pokeArr, PokeDisplay: pokeObj})
   }
