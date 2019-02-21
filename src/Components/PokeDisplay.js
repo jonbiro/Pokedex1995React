@@ -5,7 +5,7 @@ import PokeFormEdit from "./PokeFormEdit";
 
 const PokeDisplay = props => {
   return (
-    <div>
+    <div className="pokeDisplay">
       <h1>{props.pokemon.name}</h1>
 
       {!props.pokemon.GIF ? (

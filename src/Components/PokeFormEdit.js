@@ -12,6 +12,7 @@ class PokeFormEdit extends Component {
 		this.setState({ name: this.props.pokemon.name, description: this.props.pokemon.description, img: this.props.pokemon.img, GIF: this.props.pokemon.GIF });
 		// console.log(this.props.pokemon.name)
 	}
+	// static getDerivedStateFromProps(props, state)
 	
 	handleChange = e => {
 		e.preventDefault();

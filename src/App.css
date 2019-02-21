@@ -34,23 +34,26 @@
 .container {
   position: relative;
   float: right;
-  padding-right: 30%;
-    /*display: flex;*/
-    flex-flow: row wrap;
-    overflow-x: auto;
-    height: 40vh;
+  padding-right: 20%;
+  /*display: flex;*/
+  flex-flow: row wrap;
+  overflow-x: auto;
+  height: 70vh;
 }
 .poke-card {
   width: 30%;
-  height: 30%;
+  height: 22%;
 }
 .search {
   position: absolute;
-  right: 35%;
+  right: 23%;
 }
 .pokedog {
   /*display: flex;*/
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.pokeDisplay {
+
 }

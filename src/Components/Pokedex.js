@@ -45,8 +45,8 @@ class Pokedex extends Component {
   filterByInput = () => {
     return this.state.pokemon
       .filter(pokemon =>
-        pokemon.name.toLowerCase().includes(this.state.searchTerm.toLowerCase())
-      )
+        pokemon.name.toLowerCase().startsWith(this.state.searchTerm.toLowerCase())
+      ) //changed includes to startsWith for usability
       .map(poke => (
         <PokeCard
           key={poke.id}
@@ -63,7 +63,6 @@ class Pokedex extends Component {
   
   editedPokemon = (pokeObj) => {
   	// let pokeArr = [pokeObj, ...this.state.pokemon.filter(p => p.id !== pokeObj.id)];
-  	
   	let pokeArr = this.state.pokemon.map(pok => pok.id === pokeObj.id ? pokeObj : pok)
 	this.setState({pokemon: pokeArr, PokeDisplay: pokeObj})
   }

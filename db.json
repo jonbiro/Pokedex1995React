@@ -2,7 +2,7 @@
   "pokemon": [
     {
       "id": 1,
-      "name": "Bulbasaur",
+      "name": "Caterpie",
       "type1": "Grass",
       "type2": "Poison",
       "hp": 45,
@@ -10,9 +10,9 @@
       "defense": 49,
       "speed": 45,
       "special": 65,
-      "GIF": "https://play.pokemonshowdown.com/sprites/bwani/bulbasaur.gif",
-      "img": "https://play.pokemonshowdown.com/sprites/bw/bulbasaur.png",
-      "description": "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon."
+      "GIF": "https://play.pokemonshowdown.com/sprites/bwani/caterpie.gif",
+      "img": "https://play.pokemonshowdown.com/sprites/bw/caterpie.png",
+      "description": "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls."
     },
     {
       "id": 2,
@@ -2113,48 +2113,6 @@
       "GIF": "https://play.pokemonshowdown.com/sprites/bwani/mew.gif",
       "img": "https://play.pokemonshowdown.com/sprites/bw/mew.png",
       "description": "So rare that it is still said to be a mirage by many experts. Only a few people have seen it worldwide."
-    },
-    {
-      "name": "poketest",
-      "description": "",
-      "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/002.png",
-      "GIF": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/002.png",
-      "id": 152
-    },
-    {
-      "name": "df",
-      "description": "sdcdscs",
-      "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/002.png",
-      "GIF": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/002.png",
-      "id": 153
-    },
-    {
-      "name": "gjvvhj",
-      "description": "",
-      "img": "",
-      "GIF": "",
-      "id": 154
-    },
-    {
-      "name": "ewdfd",
-      "description": "frr",
-      "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/002.png",
-      "GIF": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/002.png",
-      "id": 155
-    },
-    {
-      "name": "fdsdsf",
-      "description": "sdfds",
-      "img": "https://play.pokemonshowdown.com/sprites/bw/ivysaur.png",
-      "GIF": "https://play.pokemonshowdown.com/sprites/bw/ivysaur.png",
-      "id": 156
-    },
-    {
-      "name": "r",
-      "description": "v",
-      "img": "https://play.pokemonshowdown.com/sprites/bw/ivysaur.png",
-      "GIF": "https://play.pokemonshowdown.com/sprites/bw/ivysaur.png",
-      "id": 157
     }
   ]
 }
