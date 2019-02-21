@@ -31,3 +31,26 @@
     transform: rotate(360deg);
   }
 }
+.container {
+  position: relative;
+  float: right;
+  padding-right: 30%;
+    /*display: flex;*/
+    flex-flow: row wrap;
+    overflow-x: auto;
+    height: 40vh;
+}
+.poke-card {
+  width: 30%;
+  height: 30%;
+}
+.search {
+  position: absolute;
+  right: 35%;
+}
+.pokedog {
+  /*display: flex;*/
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
